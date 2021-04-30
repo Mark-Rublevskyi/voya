@@ -1,0 +1,6 @@
+{
+    "require": {
+        "serj1chen/nova-poshta-sdk-php": "2.0.*",
+        "lis-dev/nova-poshta-api-2": "dev-master"
+    }
+}

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /basket.php
+Disallow: /admin.php
+Disallow: /form.php
+Sitemap: http://voya.com.ua/sitemap.xml

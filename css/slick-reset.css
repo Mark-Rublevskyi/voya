@@ -1,0 +1,24 @@
+.swiper-wrapper {
+  position: relative;
+}
+.swiper-wrapper .slick-arrow {
+  position: absolute;
+  z-index: 10;
+  border: none;
+  outline: none;
+  background-color: rgba(239, 239, 239, 0.9);
+  padding: 50px 10px;
+  font-size: 20px;
+  color: #6e6e6e;
+}
+.swiper-wrapper .slick-slide {
+  outline: none;
+}
+.slick-prev {
+  top: 40%;
+  left: 0;
+}
+.slick-next {
+  top: 40%;
+  right: 0;
+}

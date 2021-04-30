@@ -1,0 +1,50 @@
+    <footer>
+        <div class="wrapper">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h2>voya</h2>
+                </div>
+                <div class="footer-section">
+                    <div class="footer-section-title">
+                        <h2>Контакты</h2>
+                    </div>
+                    <div class="footer-btns">
+                        <div class="btn">
+                            <a href="https://instagram.com/voya.brand?igshid=1ysphixthvc0"><span class="fab fa-instagram"> Instagram</span></a>
+                            <a href="https://wa.me/380636757423"><span class="fab fa-whatsapp"> Whatsapp</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <div class="footer-section-title">
+                        <h2>Информация</h2>
+                    </div>
+                    <div class="footer-btns">
+                        <div class="btn">
+                            <a href="#"><span class="fas fa-truck"> Доставка</span></a>
+                            <a href="#"><span class="far fa-credit-card"> Оплата</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        let mobileBtns = document.querySelectorAll('[data-mobile]');
+
+        mobileBtns.forEach(function(mobile) {
+            mobile.addEventListener('click', function() {
+                let tgt = this.getAttribute('data-mobile');
+
+                if(tgt === 'close') {
+                    document.querySelector('.overlay').classList.remove('active');
+                    document.querySelector('.mobile-content').classList.remove('active');
+                } else {
+                    document.querySelector('.overlay').classList.add('active');
+                    document.querySelector('.mobile-content').classList.add('active');
+                }
+            })
+        })
+    </script>
+</body>
+</html>
